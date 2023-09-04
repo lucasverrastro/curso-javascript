@@ -20,10 +20,9 @@ function dividir(valor1, valor2) {
 
 function calculadora() {
     while (true) {
-        const valor1 = parseInt(prompt("Ingrese el 1er valor:"));
-        const operacion = prompt("Que operación queres hacer? (+ - * /) o 'salir' para salir:");
+        const valor1 = parseInt(prompt("Ingrese el 1er valor:"));       
         const valor2 = parseInt(prompt("Ingrese el 2do valor:"));
-        
+        const operacion = prompt("Que operación queres hacer? (+ - * /) o 'salir' para salir:");
 
         if (operacion === 'salir') {
             alert("Saliendo de la calculadora.");
@@ -49,4 +48,3 @@ function calculadora() {
     }
 }
 
-calculadora();
